@@ -20,6 +20,7 @@ foreach ($datos as $dato) {
     echo "<td> ". $dato['descripcion']. "</td>";
     echo "</tr>";
     echo "</tbody>";
+    /* test*/
 }
 
 ?>
