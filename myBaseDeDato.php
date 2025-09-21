@@ -22,4 +22,10 @@ class myBaseDeDato
     {
         return $this->conexionStatus;
     }
+
+    public function query_insert($queryInsert)
+    {
+          $this->conexion->query($queryInsert);
+
+    }
 }
